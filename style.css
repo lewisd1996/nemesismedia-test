@@ -183,27 +183,27 @@ h3 {
 }
 
 .nature-card {
-    background-image: url(../assets/img-trees.png); 
+    background-image: url(/assets/img-trees.png); 
     background-size: cover;
 }
 
 .bike-card {
-    background-image: url(../assets/img-bike.jpg); 
+    background-image: url(/assets/img-bike.jpg); 
     background-size: cover;
 }
 
 .cafe-card {
-    background-image: url(../assets/img-cafe.jpg); 
+    background-image: url(/assets/img-cafe.jpg); 
     background-size: cover;
 }
 
 .travel-card {
-    background-image: url(../assets/img-travel.jpg); 
+    background-image: url(/assets/img-travel.jpg); 
     background-size: cover;
 }
 
 .local-card {
-    background-image: url(../assets/img-local.jpg); 
+    background-image: url(/assets/img-local.jpg); 
     background-size: cover;
 }
 
