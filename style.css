@@ -26,7 +26,7 @@ p {
 }
 
 h3 {
-    font-size: 5rem;
+    font-size: 4rem;
 }
 
 /*---------------------------------------*/
@@ -51,6 +51,7 @@ h3 {
     background: none;
     text-decoration: none;
     border: none;
+    cursor: pointer;
 }
 
 .nav-btn:hover {
@@ -318,7 +319,6 @@ h3 {
 }
 
 .info-box-short-list-ul-li {
-    margin: 20px;
     cursor: pointer;
     display: flex;
     align-items: center;
@@ -355,7 +355,7 @@ h3 {
 }
 
 .info-box-small-section-p {
-    font-size: 2rem;
+    font-size: 1rem;
 }
 
 .info-box-btn {
