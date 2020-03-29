@@ -1,7 +1,7 @@
 *{
     padding: 0;
     margin: 0;
-    font-size: 10px;
+    font-size: 8px;
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
@@ -26,7 +26,7 @@ p {
 }
 
 h3 {
-    font-size: 4rem;
+    font-size: 5rem;
 }
 
 /*---------------------------------------*/
@@ -51,7 +51,6 @@ h3 {
     background: none;
     text-decoration: none;
     border: none;
-    cursor: pointer;
 }
 
 .nav-btn:hover {
@@ -184,27 +183,27 @@ h3 {
 }
 
 .nature-card {
-    background-image: url(/assets/img-trees.png); 
+    background-image: url(assets/img-trees.png); 
     background-size: cover;
 }
 
 .bike-card {
-    background-image: url(/assets/img-bike.jpg); 
+    background-image: url(assets/img-bike.jpg); 
     background-size: cover;
 }
 
 .cafe-card {
-    background-image: url(/assets/img-cafe.jpg); 
+    background-image: url(assets/img-cafe.jpg); 
     background-size: cover;
 }
 
 .travel-card {
-    background-image: url(/assets/img-travel.jpg); 
+    background-image: url(assets/img-travel.jpg); 
     background-size: cover;
 }
 
 .local-card {
-    background-image: url(/assets/img-local.jpg); 
+    background-image: url(assets/img-local.jpg); 
     background-size: cover;
 }
 
@@ -292,15 +291,13 @@ h3 {
 .info-box-short-list {
     background-color: rgb(255,255,255);
     width: 100%;
-    padding: 40px;
-    margin: 33px 20px 33px 20px;
     display: flex;
     flex-direction: column;
+    padding: 20px;
 }
 
 .info-box-small {
     width: 100%;
-    padding: 40px;
     margin: 33px 20px 33px 20px;
     display: flex;
     flex-direction: column;
@@ -308,6 +305,7 @@ h3 {
 
 .info-box-2-title-h3 {
     margin-bottom: 10px;
+    padding: 10px
 }
 
 .info-box-short-list-ul {
@@ -319,10 +317,10 @@ h3 {
 }
 
 .info-box-short-list-ul-li {
+    margin: 20px;
     cursor: pointer;
     display: flex;
     align-items: center;
-    padding: 20px;
 }
 
 .info-box-short-list-ul-li:hover {
@@ -355,7 +353,7 @@ h3 {
 }
 
 .info-box-small-section-p {
-    font-size: 1rem;
+    font-size: 2rem;
 }
 
 .info-box-btn {
@@ -405,7 +403,6 @@ h3 {
     display: flex;
     height: 100%;
     width: 100%;
-    background-color: chartreuse;
 }
 
 .about-header {
@@ -432,16 +429,15 @@ h3 {
 
 .about-text{
     width: 60%;
-    height: 100%;
     background-color: white;
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 20px;
 }
 
 .about-text-p {
-    font-size: 2rem;
+    font-size: 2.5rem;
+    width: 70%;
 }
 /*---------------------------------------*/
 .footer {
